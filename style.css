@@ -1,5 +1,42 @@
-p{
+p {
     color: black;
     font-size: 20px;
     text-align: center;
 }
+
+.container {
+    width: 300px;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+#input {
+    width: 200px;
+}
+
+#newcontainer {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+div{
+    color:red;
+    font-size:20px;
+    margin-top: 10px;
+    position: relative;
+}
+div .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  span{
+    position: absolute;
+    right: 50px;
+    border: 1px solid red;
+    box-shadow: 0dvh;
+    color: green;
+  }
